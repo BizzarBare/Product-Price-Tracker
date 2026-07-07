@@ -9,6 +9,7 @@ export async function GET(request) {
   if (code) {
     const supabase = await createClient();
     const { error } = await supabase.auth.exchangeCodeForSession(code);
+  console.log("Exchange error:", error);
 
     if (!error) {
       return NextResponse.redirect(new URL(next, request.url));
