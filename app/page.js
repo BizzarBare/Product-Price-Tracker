@@ -41,8 +41,8 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
-              src="/deal-drop-logo.png"
-              alt="Deal Drop Logo"
+              src="/my_logo.svg"
+              alt="NO LOGO !!! "
               width={600}
               height={200}
               className="h-10 w-auto"
